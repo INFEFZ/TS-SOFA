@@ -26,7 +26,7 @@
 
 Nach diesem Kapitel können Sie:
 
-- [ ] die in den früheren Kapiteln erlernten Werkzeuge (Spezifikation, Zustandsdiagramm, Struktogramm/PAP, Algorithmus) auf eine eigene, kleine Aufgabenstellung anwenden
+- [ ] die in den vorangehenden Kapiteln erlernten Werkzeuge (Spezifikation, Zustandsdiagramm, Struktogramm/PAP, Algorithmus) auf eine eigene, kleine Aufgabenstellung anwenden
 - [ ] eine einfache Aufgabenstellung eigenständig in Arduino (C) oder C# mit VS Code umsetzen
 - [ ] eine Implementierung anhand selbst definierter Testfälle prüfen
 - [ ] den eigenen Entwicklungsprozess und Kompetenzzuwachs dokumentieren und reflektieren
