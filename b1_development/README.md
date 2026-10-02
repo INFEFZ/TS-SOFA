@@ -44,7 +44,7 @@ Die Unterstützungsprozesse werden im Berufsalltag häufig unterschätzt, da sie
 
 Das Wasserfallmodell ist das älteste und einfachste Vorgehensmodell der Softwareentwicklung: Die Phasen laufen **linear und sequenziell** ab – erst wenn eine Phase abgeschlossen ist, beginnt die nächste.
 
-![Wasserfallmodell](./x_gitres/wasserfallmodell.svg)
+![Wasserfallmodell](./x_gitres/wasserfallmodell.png)
 
 | **Phase**               | **Zentrale Frage**                                   | **Typisches Ergebnis (Dokument/Artefakt)**          |
 | ----------------------- | ---------------------------------------------------- | --------------------------------------------------- |
@@ -65,7 +65,7 @@ Das Wasserfallmodell ist das älteste und einfachste Vorgehensmodell der Softwar
 
 Eine bekannte Erweiterung des Wasserfallmodells ist das **V-Modell**. Es stellt den Entwicklungsprozessen auf der linken Seite die passenden Testaktivitäten auf der rechten Seite gegenüber – jede Entwurfsphase erhält damit eine "spiegelbildliche" Prüfphase.
 
-![V-Modell](./x_gitres/v_modell.svg)
+![V-Modell](./x_gitres/v_modell.png)
 
 **Kernidee:** Für jede Entwurfsebene wird bereits **während des Entwurfs** festgelegt, wie später getestet wird. Ein Abnahmetest wird z. B. direkt aus den Anforderungen abgeleitet – nicht erst am Ende improvisiert.
 

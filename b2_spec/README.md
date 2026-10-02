@@ -53,7 +53,7 @@ In diesem Kurs verwenden wir vereinfacht den Begriff **Spezifikation** für ein 
 
 ## 1.3. Bestandteile einer Spezifikation
 
-![Bestandteile einer Spezifikation](./x_gitres/spezifikation.svg)
+![Bestandteile einer Spezifikation](./x_gitres/spezifikation.png)
 
 | Element                             | Inhalt                                                                        |
 | ----------------------------------- | ----------------------------------------------------------------------------- |
