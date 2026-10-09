@@ -10,7 +10,8 @@
   - [1.5. Beispiel: Wasserkocher](#15-beispiel-wasserkocher)
   - [1.6. Erweitertes Beispiel: Fussgängerampel mit Anforderungstaster](#16-erweitertes-beispiel-fussgängerampel-mit-anforderungstaster)
   - [1.7. Typische Fehler bei Zustandsdiagrammen](#17-typische-fehler-bei-zustandsdiagrammen)
-  - [1.8 Beispiel - Bankomathochlauf](#18-beispiel---bankomathochlauf)
+  - [1.8 Beispiel - Türschloss](#18-beispiel---türschloss)
+  - [1.9 Beispiel - Bankomathochlauf](#19-beispiel---bankomathochlauf)
 - [2. Übungsaufgaben](#2-übungsaufgaben)
   - [2.1. Zustandsdiagramm zeichnen](#21-zustandsdiagramm-zeichnen)
   - [2.2. Vollständigkeit prüfen](#22-vollständigkeit-prüfen)
@@ -92,7 +93,11 @@ Hier zeigt sich ein zusätzlich wichtiger Punkt: Der Zustand "Rot wartend" exist
 | Nicht-deterministische Übergänge | Zwei Pfeile mit demselben Ereignis aus demselben Zustand zu unterschiedlichen Zielen | Bedingung präzisieren oder Zustände weiter aufteilen         |
 | Unvollständigkeit                | Fehlerfall (z. B. Sensorausfall) nicht berücksichtigt                                | Bewusst prüfen, ob alle relevanten Ereignisse abgedeckt sind |
 
-## 1.8 Beispiel - Bankomathochlauf
+## 1.8 Beispiel - Türschloss
+
+![Türschloss](./x_gitres/beispiel-tuerschloss.png)
+
+## 1.9 Beispiel - Bankomathochlauf
 
 ![Bankomathochlauf](./x_gitres/Bankomathochlauf.png)
 

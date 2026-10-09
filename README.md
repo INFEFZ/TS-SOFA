@@ -22,8 +22,7 @@
 
 ## Handlungskompetenz
 
-- Die **Dipl. Elektrotechniker/-in HF** müssen sich bei Diskussionen im Fachgebiet **Programmiertechnik** kompetent
-einbringen können.
+- Die **Dipl. Systemtechniker/-in HF** müssen sich bei Diskussionen im Fachgebiet **Programmiertechnik** kompetent einbringen können.
 - Sie können den technischen Argumentationen folgen und sie verstehen die **technischen Zusammenhänge**. Damit sind sie in der Lage, Grundlagen für Entscheidungen zu erarbeiten.
 - Sie **entwerfen**, **programmieren** und bauen neue Geräte, Anlagen und Systeme.
 
@@ -76,7 +75,7 @@ einbringen können.
 - Kleines Softwarebüro, technische Softwareentwicklung (Fertigungsindustrie, Automation)
   - Datenbankentwicklung (MS-SQL, Oracle)
   - Softwareentwicklung (C/C++, C#)
-- Fachdozent bei IPSO (HF u. EFZ), HBU Uster, Juventus Zürich
+- Fachdozent bei IPSO (HF u. EFZ), HFU-Uster, Juventus Zürich
 
 ---
 
