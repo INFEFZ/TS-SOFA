@@ -28,6 +28,8 @@ Nach diesem Kapitel können Sie:
 - [ ] die häufigsten Ursachen für gescheiterte oder verzögerte Softwareprojekte erklären
 - [ ] die eigene Rolle als Systemtechniker/-in HF im Softwareentwicklungsumfeld einordnen
 
+![Titelbild](./x_gitres/title-picture.png)
+
 ## 1.2. Warum überhaupt "Softwareentwicklung"?
 
 Systemtechniker/-innen HF kommen im Berufsalltag laufend mit Software in Berührung: Auswertetools, kleine Automatisierungsskripte, Konfigurationswerkzeuge, Schnittstellenprogramme. Oft entsteht dabei der Eindruck, Programmieren bestehe einfach aus "Code schreiben, bis es läuft". In der Praxis zeigt sich aber rasch: Ohne systematisches Vorgehen wird selbst ein kleines Programm schwer wartbar, fehleranfällig und für andere Personen nicht nachvollziehbar.

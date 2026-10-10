@@ -186,6 +186,8 @@ Komplexe Abläufe werden durch Schachtelung von Kontrollstrukturen beschrieben
 
 > **Immer vom Groben zum Feinen Anweisungen durch Teilalgorithmen ersetzen, dann geht nichts schief!**
 
+![Zusammenfassung](./x_gitres/truktogramm_%20zusammenfassung.png)
+
 ---
 
 ## 1.8. Struktogramm vs. Zustandsdiagramm – bewusste Abgrenzung

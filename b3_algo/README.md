@@ -176,4 +176,4 @@ Formulieren Sie einen Algorithmus in Pseudocode, der prüft, ob eine eingegebene
 
 **Aufgabenstellung:**
 
-Führen Sie Bubble Sort von Hand für die Liste `[9, 3, 7, 1, 5]` durch. Dokumentieren Sie jeden Vergleich und jede Vertauschung analog zur Tabelle in Kapitel 8.4, bis die Liste vollständig sortiert ist.
+Führen Sie Bubble Sort von Hand für die Liste `[9, 3, 7, 1, 5]` durch. Dokumentieren Sie jeden Vergleich und jede Vertauschung analog zur Tabelle oben (Sortieralgorithmus Bubble Sort), bis die Liste vollständig sortiert ist.

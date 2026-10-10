@@ -86,6 +86,8 @@ In diesem Kurs verwenden wir vereinfacht den Begriff **Spezifikation** für ein 
 
 Eine bewährte, einfache Priorisierung von Anforderungen ist die **MoSCoW-Methode**:
 
+![MoSCoW-Methode](./x_gitres/moscow-methode.png)
+
 | **Kürzel**                 | **Bedeutung**                                           |
 | -------------------------- | ------------------------------------------------------- |
 | **M**ust have              | Zwingend erforderlich, ohne dies ist die Lösung wertlos |
@@ -116,6 +118,8 @@ Eine Anforderung ist nur dann brauchbar, wenn sie folgende Kriterien erfüllt:
 ## 1.5. Vorgehen zur Erstellung einer Spezifikation
 
 Eine bewährte Vorgehensweise zur systematischen Anforderungserhebung ist die **W-Fragen-Technik**:
+
+![W-Fragen zur Spezifikation](./x_gitres/questions-specification.png)
 
 1. **Wer** nutzt die Software? (Zielgruppe, Vorkenntnisse)
 2. **Was** soll die Software leisten? (Kernfunktionen)

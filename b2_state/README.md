@@ -47,6 +47,8 @@ Viele technische und softwaretechnische Systeme lassen sich als endliche Anzahl 
 
 ## 1.3. Notationselemente
 
+![Notationselemente](./x_gitres/state_elements.png)
+
 | **Element**         | **Darstellung**                                 | **Bedeutung**                                          |
 | ------------------- | ----------------------------------------------- | ------------------------------------------------------ |
 | Zustand             | Rechteck mit abgerundeten Ecken (oder Kreis)    | Stabile Situation des Systems                          |
@@ -54,7 +56,9 @@ Viele technische und softwaretechnische Systeme lassen sich als endliche Anzahl 
 | Endzustand          | Punkt mit Kreisrand ("Bullseye")                | Optional – nicht jedes System hat ein definiertes Ende |
 | Übergang/Transition | Beschrifteter Pfeil                             | Ereignis, das den Zustandswechsel auslöst              |
 
-![Beispiel Wasserkocher](./x_gitres/notations-elemente.png)
+**Beispiel Wasserkocher:**
+
+![Zustände und Übergänge Beispiel Wasserkocher](./x_gitres/notations-elemente.png)
 
 ## 1.4. Regeln für korrekte Zustandsdiagramme
 
@@ -71,16 +75,7 @@ Diskussionswürdig: Was passiert, wenn während "Heizt" kein Wasser im Kocher is
 
 ## 1.6. Erweitertes Beispiel: Fussgängerampel mit Anforderungstaster
 
-```bash
-   ●──►┌───────┐  Taste gedrückt   ┌─────────────┐  Zeit T1 abgelaufen  ┌─────────┐
-       │  Rot  │──────────────────►│ Rot wartend │─────────────────────►│  Grün   │
-       └───────┘                   └─────────────┘                      └────┬────┘
-            ▲                                                                │ Zeit T2 abgelaufen
-            │                          Zeit T3 abgelaufen                    ▼
-            │                     ┌────────────┐                       ┌─────────┐
-            └─────────────────────│    Rot     │◄──────────────────────│  Gelb   │
-                                  └────────────┘                       └─────────┘
-```
+![Ampelsteuerung](./x_gitres/beispiel-ampelsteuerung.png)
 
 Hier zeigt sich ein zusätzlich wichtiger Punkt: Der Zustand "Rot wartend" existiert bewusst getrennt von "Rot", da während dieser Zeit eine feste Wartezeit (T1) abläuft, bevor auf Grün gewechselt werden darf – unabhängig davon, ob die Taste erneut gedrückt wird.
 
