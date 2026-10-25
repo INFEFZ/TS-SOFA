@@ -18,6 +18,9 @@
   - [1.6. Verschachtelung](#16-verschachtelung)
   - [1.7. Zusammenfassung](#17-zusammenfassung)
   - [1.8. Struktogramm vs. Zustandsdiagramm – bewusste Abgrenzung](#18-struktogramm-vs-zustandsdiagramm--bewusste-abgrenzung)
+  - [1.9 Online-Tools für Struktogramme (Nassi-Shneiderman-Diagramme)](#19-online-tools-für-struktogramme-nassi-shneiderman-diagramme)
+    - [1.9.1 Nassi-Designer](#191-nassi-designer)
+    - [1.9.2 VisuStruct](#192-visustruct)
 - [2. Übungsaufgaben](#2-übungsaufgaben)
   - [2.1. Struktogramm zu einer Verzweigung](#21-struktogramm-zu-einer-verzweigung)
   - [2.2. Struktogramm mit Schleife](#22-struktogramm-mit-schleife)
@@ -199,6 +202,21 @@ Ein häufiges Missverständnis bei Einsteigern: Struktogramm und Zustandsdiagram
 | Modelliert         | **Zustände** eines Systems über die Zeit                  | **Ablauflogik innerhalb eines Programmschritts**       |
 | Zeithorizont       | Das System kann beliebig lange in einem Zustand verharren | Wird i. d. R. in einem Durchlauf komplett abgearbeitet |
 | Typisches Beispiel | Ampelphasen, Türsteuerung                                 | Ein Algorithmus wie "Klassifiziere Temperatur"         |
+
+---
+
+## 1.9 Online-Tools für Struktogramme (Nassi-Shneiderman-Diagramme)
+
+### 1.9.1 Nassi-Designer
+
+Unterstützt Sequenzen, Alternativen, While-, Do-While- und For-Schleifen. Export als PNG und PDF. Besonders interessant für Lehrpersonen und Lernende.
+[Nassi-Designer](https://nassi.exploki.de/app/)
+
+### 1.9.2 VisuStruct
+
+Ermöglicht das Erstellen von Struktogrammen, die schrittweise Simulation und die Codegenerierung für Java, Python und JavaScript. 
+
+[VisuStruct](https://visustruct.org/en/index.html)
 
 ---
 

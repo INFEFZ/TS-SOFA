@@ -143,13 +143,15 @@ Eine bewährte Vorgehensweise zur systematischen Anforderungserhebung ist die **
 | **Lernziele**       | Eine einfache Spezifikation selbständig und strukturiert verfassen |
 | **Sozialform**      | Einzelarbeit                                                       |
 | **Auftrag**         | siehe unten                                                        |
-| **Hilfsmittel**     | Struktur aus Kapitel 3.2                                           |
+| **Hilfsmittel**     | Struktur aus Kapitel oben                                          |
 | **Zeitbedarf**      | 30 min                                                             |
 | **Lösungselemente** | Vollständige, strukturierte Spezifikation (ca. 1 Seite)            |
 
 **Aufgabenstellung:**
 
 Verfassen Sie eine Spezifikation für ein Tool, das aus einer Liste von Werkzeugen (Name, Standort, Zustand: verfügbar/in Wartung/ausgemustert) die aktuell **verfügbaren** Werkzeuge anzeigt. Verwenden Sie die Struktur aus obigen Kapitel (Ausgangslage, funktionale/nicht-funktionale Anforderungen mit MoSCoW-Priorisierung, Abgrenzung, Schnittstellen).
+
+![Mustervorlage](./x_gitres/Spezifikation_Mustervorlage.docx)
 
 ---
 
