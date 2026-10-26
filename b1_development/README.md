@@ -27,6 +27,8 @@ Nach diesem Kapitel können Sie:
 - [ ] erklären, weshalb Fehler umso teurer sind, je später sie im Prozess entdeckt werden
 - [ ] den Gesamtprozess auf ein eigenes Praxisbeispiel übertragen
 
+---
+
 ## 1.2. Kern- und Unterstützungsprozesse
 
 Der Gesamtprozess der Softwareentwicklung lässt sich in zwei Kategorien gliedern:
@@ -39,6 +41,8 @@ Der Gesamtprozess der Softwareentwicklung lässt sich in zwei Kategorien glieder
 Die Unterstützungsprozesse werden im Berufsalltag häufig unterschätzt, da sie kein direkt sichtbares "Produkt" erzeugen. Fehlt aber z. B. das Konfigurationsmanagement (Versionsverwaltung), verliert ein Team schnell den Überblick, welche Codeversion aktuell im Einsatz ist – mit entsprechenden Folgefehlern.
 
 > **Praxisbeispiel:** Auch ein Ein-Personen-Projekt (z. B. ein eigenes PowerShell-Tool) profitiert von Unterstützungsprozessen: Eine einfache Versionsverwaltung (z. B. Git) oder ein Änderungsprotokoll verhindert, dass man nach Monaten nicht mehr weiss, warum eine bestimmte Codezeile geändert wurde.
+
+---
 
 ## 1.3. Das klassische Phasenmodell (Wasserfallmodell)
 
@@ -61,6 +65,8 @@ Das Wasserfallmodell ist das älteste und einfachste Vorgehensmodell der Softwar
 
 > **Wichtig:** Dieses Modul zeigt das Wasserfallmodell als **gedankliches Grundgerüst**, um die Kernphasen sauber zu verstehen. In Kapitel 9 wird gezeigt, dass reale Projekte selten streng linear ablaufen (→ Agile Entwicklung).
 
+---
+
 ## 1.4. Das V-Modell – Test als gleichwertige Disziplin
 
 Eine bekannte Erweiterung des Wasserfallmodells ist das **V-Modell**. Es stellt den Entwicklungsprozessen auf der linken Seite die passenden Testaktivitäten auf der rechten Seite gegenüber – jede Entwurfsphase erhält damit eine "spiegelbildliche" Prüfphase.
@@ -68,6 +74,8 @@ Eine bekannte Erweiterung des Wasserfallmodells ist das **V-Modell**. Es stellt 
 ![V-Modell](./x_gitres/v_modell.png)
 
 **Kernidee:** Für jede Entwurfsebene wird bereits **während des Entwurfs** festgelegt, wie später getestet wird. Ein Abnahmetest wird z. B. direkt aus den Anforderungen abgeleitet – nicht erst am Ende improvisiert.
+
+---
 
 ## 1.5. Warum frühes Erkennen von Fehlern entscheidend ist
 
@@ -84,6 +92,8 @@ Ein zentraler Grundsatz der Softwareentwicklung lautet: **Je später ein Fehler 
 **Erklärung:** Ein Fehler in der Anforderung, der erst im Betrieb entdeckt wird, betrifft meist nicht nur eine einzelne Codezeile, sondern den gesamten darauf aufbauenden Entwurf, die Implementierung, die Tests und ggf. bereits ausgelieferte Dokumentation – all das muss angepasst werden.
 
 > **Genau deshalb** ist der Aufwand für Spezifikation, Zustandsdiagramm, Struktogramm und PAP (Kapitel 3–6) gut investierte Zeit: Fehler und Missverständnisse werden auf dem Papier sichtbar, **bevor** eine einzige Codezeile geschrieben wurde.
+
+---
 
 ## 1.6. Anwendung auf ein Systemtechnik-Szenario
 
