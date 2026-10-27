@@ -40,7 +40,7 @@ Der Gesamtprozess der Softwareentwicklung lässt sich in zwei Kategorien glieder
 
 Die Unterstützungsprozesse werden im Berufsalltag häufig unterschätzt, da sie kein direkt sichtbares "Produkt" erzeugen. Fehlt aber z. B. das Konfigurationsmanagement (Versionsverwaltung), verliert ein Team schnell den Überblick, welche Codeversion aktuell im Einsatz ist – mit entsprechenden Folgefehlern.
 
-> **Praxisbeispiel:** Auch ein Ein-Personen-Projekt (z. B. ein eigenes PowerShell-Tool) profitiert von Unterstützungsprozessen: Eine einfache Versionsverwaltung (z. B. Git) oder ein Änderungsprotokoll verhindert, dass man nach Monaten nicht mehr weiss, warum eine bestimmte Codezeile geändert wurde.
+> **Praxisbeispiel:** Auch ein Ein-Personen-Projekt (z.B. ein eigenes PowerShell-Tool) profitiert von Unterstützungsprozessen: Eine einfache Versionsverwaltung (z.B. Git) oder ein Änderungsprotokoll verhindert, dass man nach Monaten nicht mehr weiss, warum eine bestimmte Codezeile geändert wurde.
 
 ---
 
@@ -73,7 +73,7 @@ Eine bekannte Erweiterung des Wasserfallmodells ist das **V-Modell**. Es stellt 
 
 ![V-Modell](./x_gitres/v_modell.png)
 
-**Kernidee:** Für jede Entwurfsebene wird bereits **während des Entwurfs** festgelegt, wie später getestet wird. Ein Abnahmetest wird z. B. direkt aus den Anforderungen abgeleitet – nicht erst am Ende improvisiert.
+> **Kernidee:** Für jede Entwurfsebene wird bereits **während des Entwurfs** festgelegt, wie später getestet wird. Ein Abnahmetest wird z. B. direkt aus den Anforderungen abgeleitet – nicht erst am Ende improvisiert.
 
 ---
 

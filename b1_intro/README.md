@@ -243,7 +243,7 @@ Beantwortet für jeden ausgewählten Diagrammtyp folgende Fragen:
 
 **Aufgabenstellung:**
 
-Ordnen Sie folgende vier Tätigkeiten begründet der Spalte "Programmieren" oder "Softwareentwicklung" zu (Mehrfachnennung möglich, wenn beide Aspekte enthalten sind):
+Ordnen Sie folgende vier Tätigkeiten begründet der Spalte "**Programmieren**" oder "**Softwareentwicklung**" zu (Mehrfachnennung möglich, wenn beide Aspekte enthalten sind):
 
 1. Ein PowerShell-Skript schreiben, das einmalig 200 Dateien umbenennt.
 2. Ein Auswertetool für die Tagesproduktion planen, spezifizieren, umsetzen, testen und danach über Jahre pflegen.
@@ -266,7 +266,7 @@ Ordnen Sie folgende vier Tätigkeiten begründet der Spalte "Programmieren" oder
 
 Tauschen Sie sich zu zweit über ein Softwaretool, ein Skript oder eine Automatisierungslösung aus Ihrem Berufsalltag aus, die/das nicht wie gewünscht funktioniert hat oder deutlich mehr Aufwand verursacht hat als geplant.
 
-1. Ordnen Sie das Problem mindestens einer der 5 Ursachen zu.
+1. Ordnen Sie das Problem mindestens einer der 5 Ursachen (siehe Kapitel 1.8) zu.
 2. Überlegen Sie: Welches der in diesem Modul vorgestellten Werkzeuge (Spezifikation, Zustandsdiagramm, Struktogramm, PAP) hätte das Problem voraussichtlich vermieden oder zumindest früher sichtbar gemacht?
 3. Haltet eure Erkenntnisse in 3–4 Sätzen fest und stellt sie kurz der Klasse vor.
 

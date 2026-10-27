@@ -72,4 +72,4 @@ einbringen können.
 - Berufliche Ziele
 - Grund für diese Ausbildung
 - Erfahrungen mit Programmieren/Software-Entwicklung
-- Erwartungen an den Kurs "Programmiertechnik A+B"
+- Erwartungen an den Kurs "Softwareentwickung A+B"
