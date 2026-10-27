@@ -38,7 +38,7 @@ Der Gesamtprozess der Softwareentwicklung lässt sich in zwei Kategorien glieder
 | **Kernprozesse**           | Anforderungsanalyse, Entwurf, Implementierung, Test, Abnahme, Betrieb/Wartung  | Erzeugen direkt das Softwareprodukt         |
 | **Unterstützungsprozesse** | Projektmanagement, Konfigurationsmanagement, Dokumentation, Qualitätssicherung | Ermöglichen und sichern die Kernprozesse ab |
 
-Die Unterstützungsprozesse werden im Berufsalltag häufig unterschätzt, da sie kein direkt sichtbares "Produkt" erzeugen. Fehlt aber z. B. das Konfigurationsmanagement (Versionsverwaltung), verliert ein Team schnell den Überblick, welche Codeversion aktuell im Einsatz ist – mit entsprechenden Folgefehlern.
+Die Unterstützungsprozesse werden im Berufsalltag häufig unterschätzt, da sie kein direkt sichtbares "Produkt" erzeugen. Fehlt aber z.B. das Konfigurationsmanagement (Versionsverwaltung), verliert ein Team schnell den Überblick, welche Codeversion aktuell im Einsatz ist – mit entsprechenden Folgefehlern.
 
 > **Praxisbeispiel:** Auch ein Ein-Personen-Projekt (z.B. ein eigenes PowerShell-Tool) profitiert von Unterstützungsprozessen: Eine einfache Versionsverwaltung (z.B. Git) oder ein Änderungsprotokoll verhindert, dass man nach Monaten nicht mehr weiss, warum eine bestimmte Codezeile geändert wurde.
 
@@ -126,7 +126,7 @@ Angenommen, es soll eine kleine Anwendung entstehen, die den Energieverbrauch ei
 **Aufgabenstellung:**
 
 - Wählen Sie ein Softwareprodukt aus Ihrem Berufsalltag (App, Tool, Auswertesoftware – ohne SPS-Detail).
-- Ordnen Sie mindestens 4 Tätigkeiten, die bei dessen Entstehung oder laufendem Betrieb nötig sind bzw. waren, den Kern- bzw. Unterstützungsprozessen zu und begründen Sie Ihre Zuordnung in 2–3 Sätzen je Tätigkeit.
+- Ordnen Sie mindestens 4 Tätigkeiten, die bei dessen Entstehung oder laufendem Betrieb nötig sind bzw. waren, den **Kern-** bzw. **Unterstützungsprozessen** (Kapitel 1.2) zu und begründen Sie Ihre Zuordnung in 2–3 Sätzen je Tätigkeit.
 
 ---
 
