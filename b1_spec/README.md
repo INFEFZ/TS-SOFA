@@ -12,8 +12,9 @@
   - [1.4. Kriterien für gute Anforderungen](#14-kriterien-für-gute-anforderungen)
     - [1.4.1. Negativbeispiele – typische Formulierungsfehler](#141-negativbeispiele--typische-formulierungsfehler)
   - [1.5. Vorgehen zur Erstellung einer Spezifikation](#15-vorgehen-zur-erstellung-einer-spezifikation)
+  - [1.6 Musterbeispiel "Wartungsprotokoll-Tool"](#16-musterbeispiel-wartungsprotokoll-tool)
 - [2. Übungsaufgaben](#2-übungsaufgaben)
-  - [2.1. Spezifikation erstellen](#21-spezifikation-erstellen)
+  - [2.1. Spezifikation erstellen (Werkzeuglager-Tool)](#21-spezifikation-erstellen-werkzeuglager-tool)
   - [2.2. Anforderungen korrigieren](#22-anforderungen-korrigieren)
 
 ---
@@ -130,13 +131,17 @@ Eine bewährte Vorgehensweise zur systematischen Anforderungserhebung ist die **
 
 > **Praxistipp:** Halten Sie in einem ersten Gespräch mit dem/der Auftraggeber/-in bewusst offene Fragen, statt bereits Lösungen vorzuschlagen. Die häufigste Falle ist, dass Auftraggeber und Entwickler zu früh über eine konkrete technische Lösung statt über das eigentliche Bedürfnis sprechen.
 
+## 1.6 Musterbeispiel "Wartungsprotokoll-Tool"
+
+[Wartungsprotokoll-Tool](./spezifikation_wartungsprotokoll_tool.md)
+
 ---
 
 </br>
 
 # 2. Übungsaufgaben
 
-## 2.1. Spezifikation erstellen
+## 2.1. Spezifikation erstellen (Werkzeuglager-Tool)
 
 | **Vorgabe**         | **Beschreibung**                                                   |
 | :------------------ | :----------------------------------------------------------------- |
@@ -151,7 +156,7 @@ Eine bewährte Vorgehensweise zur systematischen Anforderungserhebung ist die **
 
 Verfassen Sie eine Spezifikation für ein Tool, das aus einer Liste von Werkzeugen (Name, Standort, Zustand: verfügbar/in Wartung/ausgemustert) die aktuell **verfügbaren** Werkzeuge anzeigt. Verwenden Sie die Struktur aus obigen Kapitel (Ausgangslage, funktionale/nicht-funktionale Anforderungen mit MoSCoW-Priorisierung, Abgrenzung, Schnittstellen).
 
-![Mustervorlage](./x_gitres/Spezifikation_Mustervorlage.docx)
+[Mustervorlage](./x_gitres/Spezifikation_Mustervorlage.docx)
 
 ---
 

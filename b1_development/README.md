@@ -142,7 +142,7 @@ Angenommen, es soll eine kleine Anwendung entstehen, die den Energieverbrauch ei
 
 **Aufgabenstellung:**
 
-Stellen Sie sich vor, Sie entwickeln eine kleine Anwendung, die den Energieverbrauch einer Werkhalle pro Woche zusammenfasst und als Bericht ausgibt (siehe Kapitel 2.5).
+Stellen Sie sich vor, Sie entwickeln eine kleine Anwendung, die den Energieverbrauch einer Werkhalle pro Woche zusammenfasst und als Bericht ausgibt (siehe Kapitel 1.6).
 
 1. Formulieren Sie für jede der 6 Phasen des Wasserfallmodells mindestens einen konkreten Arbeitsschritt für dieses Beispiel.
 2. Nehmen Sie an, ein wichtiges Kennzahlen-Kriterium wurde in der Anforderungsanalyse übersehen und erst beim produktiven Betrieb bemerkt. Begründen Sie anhand von Kapitel 2.4, weshalb die Korrektur an dieser Stelle besonders aufwändig ist.

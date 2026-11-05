@@ -124,7 +124,7 @@ In der Praxis ist die Wahl der Programmiersprache selten "die eine richtige Antw
 **Aufgabenstellung:**
 
 Ermitteln Sie alle wichtigen Informationen und Merkmale wodurch sich Skript- von Hochsprachen (wie C#, C++, Java etc.) unterscheiden. 
-Unterlegen Sie Ihre Punkte mittels praxisorientierten Beispielen und Anwendungen. 
+Unterlegen Sie Ihre Punkte mittels praxisorientierten Beispielen und Anwendungen.
 Die nachfolgenden Punkte geben Ihnen einen Rahmen vor:
 
 - Einsatzbereich

@@ -24,6 +24,7 @@
 - [2. Übungsaufgaben](#2-übungsaufgaben)
   - [2.1. Struktogramm zu einer Verzweigung](#21-struktogramm-zu-einer-verzweigung)
   - [2.2. Struktogramm mit Schleife](#22-struktogramm-mit-schleife)
+  - [2.3. Passwortprüfung mit begrenzter Anzahl an Fehlversuchen](#23-passwortprüfung-mit-begrenzter-anzahl-an-fehlversuchen)
 
 --
 
@@ -215,7 +216,7 @@ Unterstützt Sequenzen, Alternativen, While-, Do-While- und For-Schleifen. Expor
 
 ### 1.9.2 VisuStruct
 
-Ermöglicht das Erstellen von Struktogrammen, die schrittweise Simulation und die Codegenerierung für Java, Python und JavaScript. 
+Ermöglicht das Erstellen von Struktogrammen, die schrittweise Simulation und die Codegenerierung für Java, Python und JavaScript.
 
 [VisuStruct](https://visustruct.org/en/index.html)
 
@@ -257,6 +258,45 @@ Erstellen Sie ein Struktogramm für ein Programm, das so lange Zahlen von der Ta
 2. Was ändert sich, wenn garantiert mindestens eine Zahl ≠ 0 eingegeben wird, bevor die Abbruchbedingung eintreten kann?
 
 ---
+
+</br>
+
+## 2.3. Passwortprüfung mit begrenzter Anzahl an Fehlversuchen
+
+| **Vorgabe**             | **Beschreibung**                                      |
+| :---------------------- | :---------------------------------------------------- |
+| **Lernziele**           | komplexe Abläufe nachvollziehbar grafisch darstellen. |
+|                         | Struktogramm erstellen                                |
+| **Sozialform**          | Einzelarbeit                                          |
+| **Hilfsmittel**         |                                                       |
+| **Erwartete Resultate** |                                                       |
+| **Zeitbedarf**          | 40 min                                                |
+| **Lösungselemente**     | Vollständiges Struktogramm                            |
+
+**Situation:**
+
+Ein Programm soll eine Passworteingabe eines Benutzers überprüfen.
+
+Beim Start des Programms wird der Benutzer aufgefordert, ein Passwort einzugeben.
+Das eingegebene Passwort wird mit einem vorgegebenen (korrekten) Passwort verglichen.
+
+- Ist das Passwort korrekt, wird eine Willkommensmeldung ausgegeben und das Programm endet.
+- Ist das Passwort falsch, wird der Benutzer erneut zur Eingabe aufgefordert.
+- Es sind maximal drei Fehlversuche erlaubt.
+- Nach dem dritten falschen Versuch wird eine entsprechende Meldung ausgegeben und das Programm wird beendet.
+
+**Auftrag:**
+
+1. Stellen Sie den beschriebenen Ablauf in einem Struktogramm dar.
+2. Verwenden Sie ausschliesslich die korrekten Grundelemente:
+   - Anweisungen
+   - Alternative / Verzweigung
+   - Schleifen
+3. Achten Sie auf:
+   - eine korrekte Zählvariable für die Fehlversuche
+   - logisch richtige Verzweigungen
+   - eine saubere und übersichtliche Darstellung
+   - eindeutige Beschriftung der Entscheidungszweige (z.B. "ja" / "nein")
 
 © 2026 Lukas Müller – Licensed under CC BY-NC-ND 4.0
 See [LICENSE](..\license.md) file for details.

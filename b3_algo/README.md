@@ -13,8 +13,10 @@
   - [1.8. Beispiel: Sortieralgorithmus Bubble Sort](#18-beispiel-sortieralgorithmus-bubble-sort)
   - [1.9. Aufwand von Algorithmen – eine erste Intuition](#19-aufwand-von-algorithmen--eine-erste-intuition)
 - [2. Übungsaufgaben](#2-übungsaufgaben)
-  - [2.1. Algorithmus in Pseudocode formulieren und prüfen](#21-algorithmus-in-pseudocode-formulieren-und-prüfen)
+  - [2.1. Zahlenraten (einfach)](#21-zahlenraten-einfach)
   - [2.2. Bubble Sort von Hand durchführen](#22-bubble-sort-von-hand-durchführen)
+  - [2.3. Messwert-Überwachung pro Schicht (fortgeschritten)](#23-messwert-überwachung-pro-schicht-fortgeschritten)
+  - [2.4. Primzahlen bis n (fortgeschritten)](#24-primzahlen-bis-n-fortgeschritten)
 
 # 1. Algorithmen
 
@@ -150,19 +152,40 @@ Nicht jeder Algorithmus, der ein Problem korrekt löst, ist gleich **effizient**
 
 # 2. Übungsaufgaben
 
-## 2.1. Algorithmus in Pseudocode formulieren und prüfen
+## 2.1. Zahlenraten (einfach)
 
-| **Vorgabe**         | **Beschreibung**                                                            |
-| :------------------ | :-------------------------------------------------------------------------- |
-| **Lernziele**       | Algorithmus in Pseudocode formulieren und anhand der 5 Eigenschaften prüfen |
-| **Sozialform**      | Einzelarbeit                                                                |
-| **Auftrag**         | siehe unten                                                                 |
-| **Zeitbedarf**      | 25 min                                                                      |
-| **Lösungselemente** | Pseudocode + schriftliche Prüfung anhand der 5 Eigenschaften                |
+| **Vorgabe**         | **Beschreibung**                                                                               |
+| :------------------ | :--------------------------------------------------------------------------------------------- |
+| **Lernziele**       | Einen Algorithmus mit Schleife und Verzweigung formulieren, prüfen und in Flowgorithm umsetzen |
+| **Sozialform**      | Einzelarbeit                                                                                   |
+| **Hilfsmittel**     | Flowgorithm, Kapitel oben                                                                      |
+| **Auftrag**         | siehe unten                                                                                    |
+| **Zeitbedarf**      | 30 min                                                                                         |
+| **Lösungselemente** | Pseudocode, Prüfung der 5 Eigenschaften, lauffähiges Flowgorithm-Programm, 3 Testläufe         |
 
 **Aufgabenstellung:**
 
-Formulieren Sie einen Algorithmus in Pseudocode, der prüft, ob eine eingegebene ganze Zahl `n` (n > 1) eine Primzahl ist. Prüfen Sie Ihren Algorithmus anschliessend schriftlich anhand der 5 Eigenschaften aus obigen Kapitel.
+Programmieren Sie ein kleines Ratespiel: Das Programm denkt sich eine ganze Zufallszahl zwischen 1 und 100 aus. Sie versuchen, diese Zahl zu erraten.
+
+- Nach jedem Tipp meldet das Programm **"Zu klein!"**, **"Zu gross!"** oder **"Richtig!"**.
+- Das Programm fragt so lange nach einem neuen Tipp, bis die Zahl erraten ist.
+- Am Schluss gibt das Programm die **Anzahl der benötigten Versuche** aus.
+
+1. Formulieren Sie den Algorithmus in **Pseudocode** (siehe Kapitel 1.6).
+2. Prüfen Sie Ihren Algorithmus schriftlich anhand der **5 Eigenschaften** (Kapitel 1.3). Bei welcher Eigenschaft sind Sie sich nicht ganz sicher? Begründen Sie.
+3. Setzen Sie den Algorithmus in **Flowgorithm** um.
+4. Testen Sie Ihr Programm mit mindestens **3 Testläufen** und halten Sie Eingaben und Ergebnisse in einer kleinen Tabelle fest.
+
+> **Hinweise zu Flowgorithm:**
+>
+> - Eine Zufallszahl erzeugen Sie mit `Random(100)`. Achtung: Diese Funktion liefert Zahlen von **0 bis 99** – passen Sie das Ergebnis an, damit Sie auf 1 bis 100 kommen.
+> - Für reproduzierbare Tests setzen Sie die Geheimzahl vorübergehend auf einen festen Wert (z. B. `42`) statt auf eine Zufallszahl.
+> - Überlegen Sie, wie die Schleife beim allerersten Durchlauf überhaupt startet, bevor der erste Tipp eingegeben wurde.
+
+**Zusatz (optional):**
+
+- Mit welcher Strategie finden Sie die Zahl garantiert in höchstens 7 Versuchen? Begründen Sie, warum es nie mehr als 7 sind.
+- Begrenzen Sie die Versuche auf 7: Nach dem 7. falschen Tipp beendet das Programm das Spiel und verrät die gesuchte Zahl.
 
 ---
 
@@ -177,3 +200,89 @@ Formulieren Sie einen Algorithmus in Pseudocode, der prüft, ob eine eingegebene
 **Aufgabenstellung:**
 
 Führen Sie Bubble Sort von Hand für die Liste `[9, 3, 7, 1, 5]` durch. Dokumentieren Sie jeden Vergleich und jede Vertauschung analog zur Tabelle oben (Sortieralgorithmus Bubble Sort), bis die Liste vollständig sortiert ist.
+
+---
+
+## 2.3. Messwert-Überwachung pro Schicht (fortgeschritten)
+
+| **Vorgabe**         | **Beschreibung**                                                                                                        |
+| :------------------ | :---------------------------------------------------------------------------------------------------------------------- |
+| **Lernziele**       | Verschachtelte Zählschleifen und mehrstufige Verzweigungen umsetzen; Zähler gezielt zurücksetzen; ein Maximum bestimmen |
+| **Sozialform**      | Partnerarbeit                                                                                                           |
+| **Hilfsmittel**     | Flowgorithm, Kapitel oben                                                                                               |
+| **Auftrag**         | siehe unten                                                                                                             |
+| **Zeitbedarf**      | 60 min                                                                                                                  |
+| **Lösungselemente** | Pseudocode, Prüfung der 5 Eigenschaften, lauffähiges Flowgorithm-Programm, Testprotokoll, Aufwandsüberlegung            |
+
+**Aufgabenstellung:**
+
+Eine Produktionsmaschine läuft in mehreren Schichten. In jeder Schicht werden mehrere Temperaturmesswerte (in °C) erfasst. Sie programmieren eine Auswertung dieser Messwerte.
+
+- Das Programm fragt zuerst die **Anzahl der Schichten** und die **Anzahl der Messungen pro Schicht** ab (jeweils mindestens 1).
+- Danach werden die Messwerte schichtweise eingelesen. Jeder Messwert wird sofort bewertet und die Bewertung ausgegeben:
+  - Wert **grösser als 90** → "Alarm"
+  - Wert **grösser als 70** (bis und mit 90) → "Warnung"
+  - sonst → "OK"
+- Nach jeder Schicht gibt das Programm die **Anzahl Alarme** und die **Anzahl Warnungen dieser Schicht** aus.
+- Am Schluss nennt das Programm die **Schicht mit den meisten Alarmen** (inkl. Anzahl). Bei Gleichstand gilt die frühere Schicht. Traten gar keine Alarme auf, meldet das Programm "Keine Alarme aufgetreten."
+
+1. Formulieren Sie den Algorithmus in **Pseudocode**.
+2. Prüfen Sie Ihren Algorithmus anhand der **5 Eigenschaften** (Kapitel 1.3). Begründen Sie insbesondere, warum **beide** Schleifen garantiert enden (Endlichkeit). Wodurch unterscheidet sich das von der Aufgabe 2.1 (Zahlenraten)?
+3. Setzen Sie den Algorithmus in **Flowgorithm** um.
+4. Erstellen Sie ein **Testprotokoll** mit mindestens 5 Testfällen. Jeder Testfall soll eine andere Situation abdecken: Normalfall mit mehreren Schichten, Gleichstand bei den Alarmen, keine Alarme, die Grenzwerte (70, 71, 90, 91) und eine minimale Eingabe (1 Schicht, 1 Messung). Rechnen Sie das erwartete Ergebnis jeweils zuerst von Hand aus.
+5. **Aufwand (Kapitel 1.9):** Wie viele Messwerte müssen bei 3 Schichten mit je 8 Messungen eingegeben werden? Wie verändert sich diese Anzahl, wenn (a) nur die Anzahl der Schichten verdoppelt wird, (b) beide Zahlen verdoppelt werden? Vergleichen Sie mit der Beobachtung bei den Primzahlen (Aufgabe 2.2).
+
+> **Hinweise:**
+>
+> - Überlegen Sie, welche Variablen für **jede neue Schicht** wieder auf ihren Startwert gesetzt werden müssen.
+> - Die Reihenfolge der Prüfungen ist wichtig: Ein Wert von 95 ist grösser als 70 **und** grösser als 90. Welche Bewertung soll gelten?
+> - Die "Schicht mit den meisten Alarmen" bestimmen Sie nach demselben Prinzip wie das Maximum dreier Zahlen (Kapitel 1.6): Merken Sie sich den bisher grössten Wert und die zugehörige Schicht.
+
+**Zusatz (optional):**
+
+- Das Programm soll zusätzlich den **höchsten Messwert** insgesamt ausgeben, samt Schicht und Nummer der Messung (bei mehreren gleichen Werten gilt der erste).
+- Ungültige Messwerte (kleiner als 0 oder grösser als 150) werden abgelehnt und erneut abgefragt.
+
+---
+
+## 2.4. Primzahlen bis n (fortgeschritten)
+
+| **Vorgabe**         | **Beschreibung**                                                                                              |
+| :------------------ | :------------------------------------------------------------------------------------------------------------ |
+| **Lernziele**       | Verschachtelte Schleifen und Verzweigungen mit Merker-Variable umsetzen; den Aufwand eines Algorithmus messen |
+| **Sozialform**      | Partnerarbeit                                                                                                 |
+| **Hilfsmittel**     | Flowgorithm, Kapitel oben                                                                                     |
+| **Auftrag**         | siehe unten                                                                                                   |
+| **Zeitbedarf**      | 60 min                                                                                                        |
+| **Lösungselemente** | Pseudocode, Prüfung der 5 Eigenschaften, lauffähiges Flowgorithm-Programm, Testprotokoll, Aufwandsmessung     |
+
+**Aufgabenstellung:**
+
+Programmieren Sie ein Programm, das alle **Primzahlen von 2 bis zu einer eingegebenen Obergrenze n** ausgibt.
+
+- Das Programm liest eine ganze Zahl `n` (n ≥ 2) ein.
+- Es gibt jede gefundene Primzahl auf einer eigenen Zeile aus.
+- Am Schluss gibt es die **Anzahl der gefundenen Primzahlen** sowie die **Anzahl der durchgeführten Teilbarkeitsprüfungen** aus (= wie oft insgesamt geprüft wurde, ob eine Zahl durch einen Teiler ohne Rest teilbar ist).
+
+Eine Primzahl ist eine ganze Zahl grösser als 1, die nur durch 1 und durch sich selbst teilbar ist (z. B. 2, 3, 5, 7, 11).
+
+**Vorgehen:** Prüfen Sie jede Zahl von 2 bis n der Reihe nach auf Teiler zwischen 2 und (Zahl − 1). Sobald ein Teiler gefunden wurde, sind für diese Zahl keine weiteren Prüfungen mehr nötig.
+
+1. Formulieren Sie den Algorithmus in **Pseudocode**.
+2. Prüfen Sie Ihren Algorithmus anhand der **5 Eigenschaften** (Kapitel 1.3). Begründen Sie insbesondere, warum **beide** Schleifen garantiert enden (Endlichkeit).
+3. Setzen Sie den Algorithmus in **Flowgorithm** um.
+4. Rechnen Sie das erwartete Ergebnis für **n = 2, n = 10 und n = 30** zuerst von Hand aus und vergleichen Sie danach mit Ihrem Programm. Halten Sie die Ergebnisse in einem Testprotokoll fest.
+5. **Aufwand (Kapitel 1.9):** Starten Sie das Programm mit **n = 10, n = 100 und n = 1000** und notieren Sie jeweils die Anzahl der Teilbarkeitsprüfungen. Wie verändert sich der Aufwand, wenn n verzehnfacht wird? Vergleichen Sie mit der Beobachtung bei Bubble Sort.
+
+> **Hinweise:**
+>
+> - Mit dem Operator `mod` erhalten Sie den Rest einer Division (`zahl mod teiler`). Ist der Rest 0, ist die Zahl durch den Teiler teilbar.
+> - Für das Merken "Teiler schon gefunden?" eignet sich eine Variable vom Typ `Boolean`.
+> - Überlegen Sie genau, an welcher Stelle Ihres Programms Variablen auf ihren Startwert gesetzt werden müssen – insbesondere, wenn die nächste Zahl geprüft wird.
+> - Bei n = 1000 kann die Ausführung einige Sekunden dauern. Stellen Sie in Flowgorithm die Ausführungsgeschwindigkeit auf Maximum.
+
+**Zusatz (optional):**
+
+Es genügt, Teiler zu prüfen, deren Quadrat nicht grösser als die Zahl ist (`teiler * teiler <= zahl`). Passen Sie Ihr Programm an und vergleichen Sie die Anzahl der Prüfungen für n = 1000 mit der ersten Version. Bleiben die gefundenen Primzahlen gleich?
+
+---

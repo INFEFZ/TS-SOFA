@@ -84,14 +84,14 @@ SOLANGE eingabe ≠ "ende"
 
 ## 1.6. Bewertungskriterien
 
-| Kriterium                                                                                               | Punkte |
-| ------------------------------------------------------------------------------------------------------- | ------ |
-| Spezifikation vollständig und verständlich                                                              | 5      |
-| Zustandsdiagramm korrekt (Zustände/Ereignisse sauber getrennt, deterministisch, Startzustand erkennbar) | 6      |
-| Flowgorithm-Implementierung lauffähig und entspricht dem Zustandsdiagramm                               | 10     |
-| Testprotokoll mit sinnvollen Testfällen inkl. Sonderfall                                                | 3      |
-| Kurzpräsentation (Nachvollziehbarkeit, Live-Demo)                                                       | 6      |
-| **Total**                                                                                               | **30** |
+| **Kriterium**                                                                                           | **Punkte** |
+| ------------------------------------------------------------------------------------------------------- | :--------: |
+| Spezifikation vollständig und verständlich                                                              |     5      |
+| Zustandsdiagramm korrekt (Zustände/Ereignisse sauber getrennt, deterministisch, Startzustand erkennbar) |     6      |
+| Flowgorithm-Implementierung lauffähig und entspricht dem Zustandsdiagramm                               |     10     |
+| Testprotokoll mit sinnvollen Testfällen inkl. Sonderfall                                                |     3      |
+| Kurzpräsentation (Nachvollziehbarkeit, Live-Demo)                                                       |     6      |
+| **Total**                                                                                               |   **30**   |
 
 ---
 

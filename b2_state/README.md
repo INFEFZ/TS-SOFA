@@ -13,7 +13,7 @@
   - [1.8 Beispiel - Türschloss](#18-beispiel---türschloss)
   - [1.9 Beispiel - Bankomathochlauf](#19-beispiel---bankomathochlauf)
 - [2. Übungsaufgaben](#2-übungsaufgaben)
-  - [2.1. Zustandsdiagramm zeichnen](#21-zustandsdiagramm-zeichnen)
+  - [2.1. Zustandsdiagramm zeichnen - Automatische Schiebetür](#21-zustandsdiagramm-zeichnen---automatische-schiebetür)
   - [2.2. Vollständigkeit prüfen](#22-vollständigkeit-prüfen)
 
 ---
@@ -102,25 +102,27 @@ Hier zeigt sich ein zusätzlich wichtiger Punkt: Der Zustand "Rot wartend" exist
 
 # 2. Übungsaufgaben
 
-## 2.1. Zustandsdiagramm zeichnen
+## 2.1. Zustandsdiagramm zeichnen - Automatische Schiebetür
 
 | **Vorgabe**         | **Beschreibung**                                                                              |
 | :------------------ | :-------------------------------------------------------------------------------------------- |
 | **Lernziele**       | Zustände und Ereignisse korrekt identifizieren und in einem vollständigen Diagramm darstellen |
 | **Sozialform**      | Partnerarbeit (2 Personen)                                                                    |
-| **Hilfsmittel**     | Papier oder draw.io                                                                           |
+| **Hilfsmittel**     | Papier oder draw.io (UML 2.5)                                                                 |
 | **Auftrag**         | siehe unten                                                                                   |
 | **Zeitbedarf**      | 30 min                                                                                        |
 | **Lösungselemente** | Vollständiges Zustandsdiagramm mit mind. 4 Zuständen und 4 Übergängen                         |
 
 **Aufgabenstellung:**
 
-Zeichnen Sie ein vollständiges Zustandsdiagramm für eine automatische Schiebetür mit Bewegungssensor:
+Zeichnen Sie ein vollständiges Zustandsdiagramm (draw.io) für eine automatische Schiebetür mit Bewegungssensor:
 
 - Die Tür ist im Normalfall **geschlossen**.
 - Erkennt der Sensor eine Person, **öffnet** die Tür.
 - Ist die Tür vollständig offen, bleibt sie für eine feste Zeit **offen**.
 - Nach Ablauf der Zeit **schliesst** sie wieder – ausser der Sensor erkennt erneut eine Person, dann bleibt sie offen.
+
+> Verwenden Sie in draw.io die Konstruktionselemente aus UML 2.5.
 
 ---
 

@@ -14,6 +14,7 @@
   - [2.1. PAP zeichnen](#21-pap-zeichnen)
   - [2.2. Vergleich anwenden](#22-vergleich-anwenden)
   - [2.3. Flowgorithm Einführung](#23-flowgorithm-einführung)
+  - [2.4. Passwortprüfung mit begrenzter Anzahl an Fehlversuchen](#24-passwortprüfung-mit-begrenzter-anzahl-an-fehlversuchen)
 
 ---
 
@@ -143,6 +144,53 @@ Rufe über das Menü "Hilfe->Dokumentation" die Online Hilfe auf und verschaffe 
 c)
 Schreibe ein PAP, in welchem zwei Werte eingelesen und der grössere Wert danach am Bildschirm angezeigt wird
 Versuchen Sie diese Aufgabe mit **Flowgorithm** zu lösen.
+
+---
+
+</br>
+
+## 2.4. Passwortprüfung mit begrenzter Anzahl an Fehlversuchen
+
+| **Vorgabe**             | **Beschreibung**                                      |
+| :---------------------- | :---------------------------------------------------- |
+| **Lernziele**           | komplexe Abläufe nachvollziehbar grafisch darstellen. |
+|                         | Ablaufdiagramm erstellen (PAP)                        |
+| **Sozialform**          | Einzelarbeit                                          |
+| **Hilfsmittel**         |                                                       |
+| **Erwartete Resultate** |                                                       |
+| **Zeitbedarf**          | 40 min                                                |
+| **Lösungselemente**     | Vollständiger Programmablaufplan (PAP) in draw.io     |
+
+**Situation:**
+
+Ein Programm soll eine Passworteingabe eines Benutzers überprüfen.
+
+Beim Start des Programms wird der Benutzer aufgefordert, ein Passwort einzugeben.
+Das eingegebene Passwort wird mit einem vorgegebenen (korrekten) Passwort verglichen.
+
+- Ist das Passwort korrekt, wird eine Willkommensmeldung ausgegeben und das Programm endet.
+- Ist das Passwort falsch, wird der Benutzer erneut zur Eingabe aufgefordert.
+- Es sind maximal drei Fehlversuche erlaubt.
+- Nach dem dritten falschen Versuch wird eine entsprechende Meldung ausgegeben und das Programm wird beendet.
+
+**Auftrag:**
+
+1. Stellen Sie den beschriebenen Ablauf als Programmablaufplan (PAP) dar.
+2. Verwenden Sie ausschliesslich die korrekten Grundelemente des PAP:
+   - Start / Ende
+   - Verarbeitung
+   - Ein- / Ausgabe
+   - Entscheidung
+   - Verbindungspfeile
+3. Achten Sie auf:
+   - eine korrekte Zählvariable für die Fehlversuche
+   - logisch richtige Verzweigungen
+   - eine saubere und übersichtliche Darstellung
+   - eindeutige Beschriftung der Entscheidungszweige (z.B. "ja" / "nein")
+
+**Optional:**
+
+Implementieren und testen Sie ihren PAP in Flowgorithm.
 
 ---
 
